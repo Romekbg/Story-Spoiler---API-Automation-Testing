@@ -15,15 +15,22 @@ The Story Spoiler platform allows users to log in, create, update, search, and d
 The following API endpoints are covered in the automated tests:
 
 POST /api/User/Authentication: Authenticates a user.
+
 POST /api/Story/Create: Creates a new story spoiler.
+
 GET /api/Story/Search: Searches for a specific spoiler.
+
 PUT /api/Story/{id}: Updates an existing spoiler.
+
 DELETE /api/Story/{id}: Deletes a spoiler.
 
 ## Tools & Technologies
 Postman/Newman: Used for creating and running API tests.
+
 JavaScript/TypeScript: Programming language used for automation scripts.
+
 GitHub: Version control and repository management.
+
 CI Tool (if applicable): Continuous integration for running automated tests.
 
 ## How to Use
